@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif;
+}
+
+.nav__wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 50px 0;
+  height: 15px;
+}
+
+.nav__wrapper ul a {
+  text-decoration: none;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.nav__wrapper ul a:hover {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #333D4B;
+}
+
+.hero__section {
+  max-width: 1102px;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url(../images/hero__bg.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center center;
+}
+
+.hero__section h2 {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  padding: 160px 0 25px 85px;
+}
+
+.hero__section p {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  padding: 0 590px 100px 85px;
+}
+
+.commitment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 950px;
+  margin: 100px auto;
+  height: 520px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../images/commitment.png);
+  background-repeat: no-repeat;
+  background-size: 350px 425px;
+}
+
+.commitment h2 {
+  padding-top: 50px;
+  padding-bottom: 32px;
+  padding-left: 410px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  display: block;
+}
+
+.commitment p {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 538px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.quality__section {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 250px;
+  background: #2C343E;
+  border-radius: 10px;
+  position: relative;
+}
+
+.quality__section .content__text h2 {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  padding: 100px 0 32px 85px;
+}
+
+.quality__section .content__text p {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  padding-bottom: 105px;
+  padding-left: 85px;
+  margin-bottom: 50px;
+  width: 540px;
+}
+
+.quality__section img {
+  position: absolute;
+  top: -75px;
+  right: 60px;
+  border-radius: 8px;
+}
+
+.map__section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 85px;
+  margin-bottom: 150px;
+}
+
+.map__section h2 {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  padding-bottom: 72px;
+}
+
+.map__section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  gap: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 200px;
+}
+
+.map__section ul img {
+  padding-bottom: 45px;
+}
+
+.map__section ul h3 {
+  padding-bottom: 25px;
+}
+/*# sourceMappingURL=main.css.map */
