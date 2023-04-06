@@ -200,7 +200,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 200px;
+  gap: 170px;
 }
 
 .map__section ul img {
@@ -209,5 +209,57 @@ body {
 
 .map__section ul h3 {
   padding-bottom: 25px;
+}
+
+.footerr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #2C343E;
+}
+
+.footerr .footer {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footerr .footer ul {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerr .footer ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 47px 0;
+  width: 283px;
+  gap: 30px;
+}
+
+.footerr .footer ul li a {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  text-decoration: none;
+  gap: 50px;
+}
+
+.footerr .footer ul li img {
+  gap: 25px;
 }
 /*# sourceMappingURL=main.css.map */
